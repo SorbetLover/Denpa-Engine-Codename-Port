@@ -101,7 +101,7 @@ function songJsonPopup() {
     // trace(poop + '\'s .ogg does not exist!');
     FlxG.sound.play(Paths.sound('invalidJSON'));
     FlxG.camera.shake(0.05, 0.05);
-    var funnyText = new FlxText(12, FlxG.height - 24, 0, "This wont be made u silly!");
+    var funnyText = new FlxText(12, FlxG.height - 24, 0, "This wont be made u silly! \nWe dont need it :P");
     funnyText.scrollFactor.set();
     funnyText.screenCenter();
     funnyText.x = 5;
