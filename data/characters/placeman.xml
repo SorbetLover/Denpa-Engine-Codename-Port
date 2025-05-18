@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="placeman/placeman" isPlayer="true" icon="face" color="#B8B8B8">
+	<anim name="idle" anim="idle0" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="down0" x="5" y="-25" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="left0" x="-20" y="0" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="right0" x="-15" y="0" fps="24" loop="false"/>
+	<anim name="singUP" anim="up0" x="-5" y="20" fps="24" loop="false"/>
+</character>

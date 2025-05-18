@@ -1,0 +1,63 @@
+<!DOCTYPE codename-mod-credits>
+<!-- TEMPLATE FOR CUSTOM CREDITS!!! -->
+<menu name="Denpa Credits" desc="mod credits here!!!!!!!!!!!!!!!!!!!!!">
+	<!-- \/ You can also set the portrait shader as false as you can see below in the github one -->
+	<!-- <credit name="Credit Example" desc="Click me to know more about me!" icon="credit icon example" size="130" url="https://youtu.be/fugtxz1znVw"/> -->
+	<!-- <github user="NexIsDumb" customName="Nex is Dumb" desc="The bitch who made these credits menus" size="100" portrait="false"/> -->
+	
+	<!-- <credit portrait="false" name="Alloy" desc="that made this port" icon="alloy" size="130" url="https://alloysenz.carrd.co"/> -->
+	<github  user="SorbetLover" desc="that made this port"  size="130"/>
+	<github  user="al-ex427" desc="tried to help with changing the fps counter, and gave the window title snippet i was lazy to code myself (-sorbet)" icon="" size="130"/>
+	<credit portrait="false" name="" desc="" icon="" size="130" url=""/>
+
+	<credit portrait="false" name="----Denpa Team" section="true" />
+	<credit portrait="false" name="BlueVapor1234" icon="at" desc="Main Programmer &amp; Creator - &quot;What am i doing with my life&quot;" size="130" url="https://twitter.com/BlueVapor1234" />
+	<credit portrait="false" name="Toadette" icon="toadette" desc="Co Programmer - &quot;Play All Star Funkin': VS Yoshikage Kira&quot;" size="130" url="https://twitter.com/Toadette8394" />
+	<credit portrait="false" name="Yanni" icon="yanniz06" desc="Based Programmer - &quot;Never open psych dialoguebox.hx file and look into update function, worst mistake of my life&quot;" size="130" url="https://twitter.com/YanniZ06" />
+	<credit portrait="false" name="Thrify" icon="thrift" desc="Composer &amp; Artist - &quot;i spent 2 fuqin howas, fixing my qode, too, fakin, aowas&quot;" size="130" url="https://twitter.com/thriftysoles" />
+	<credit portrait="false" name="Kn1ght" icon="kn1ght" desc="Programmer &amp; Artist - &quot;I want to physically murder the shit out of windows 11&quot;" size="130" url="https://twitter.com/FNCDCreator" />
+	<credit portrait="false" name="T-San" icon="tsan" desc="Artist - &quot;Always forgets about himself&quot;" size="130" url="https://www.youtube.com/channel/UC86K4wrmW3YZ5xcOgZXTQPg" />
+	<credit portrait="false" name="jorge" icon="jorge" desc="Cross Fade Code, Hscript Support - &quot;mmmmm pan ache&quot;" size="130" url="https://twitter.com/TheGamingCat9?t=70BuQY6wOsbNrV2SVx-T8w&amp;s=09" />
+	<credit portrait="false" name="Ziad" icon="ziad" desc="Multiplayer Support - &quot;Children&quot;" size="130" url="https://twitter.com/croneriel?t=70BuQY6wOsbNrV2SVx-T8w&amp;s=09" />
+	<credit portrait="false" name="Shygee" icon="shygee" desc="Extra Programmer - &quot;I love my girlfriend go follow her on everything @Ahirukukkiii&quot;" size="130" url="https://twitter.com/Shygeeofficial" />
+	<credit portrait="false" name="" desc="" icon="" size="130" url=""/>
+
+	<credit portrait="false" name="----Contributors" section="true" />
+	<credit portrait="false" name="Tsu" icon="tsuwukiz" desc="Ex Main Artist - &quot;should i make a baldi mod&quot;" size="130" url="https://twitter.com/tsuwuki666" />
+	<credit portrait="false" name="atpx8" icon="atpx" desc="Infinite Combo, Array Duplicate Removal - &quot;&lt;insert unfunny joke here that people will laugh at anyway&gt;&quot;" size="130" url="" />
+	<credit portrait="false" name="Gizzy" icon="gizzy" desc="Title Music - &quot;Norman&quot;" size="130" url="" />
+	<credit portrait="false" name="Moo" icon="moo" desc="Main Menu Assets" size="130" url="" />
+	<credit portrait="false" name="Beth" icon="beth" desc="Ex Programmer - &quot;I left my oven on&quot;" size="130" url="" />
+	<credit portrait="false" name="Fifty Two" icon="mythslist" desc="GameBanana Game Manager - &quot;put me in it&quot;" size="130" url="https://twitter.com/MythsList" />
+	<credit portrait="false" name="MemeHoovy" icon="memehoovy" desc="General Improvements - &quot;i am the storm that is approaching&quot;" size="130" url="https://twitter.com/meme_hoovy" />
+	<credit portrait="false" name="Raltyro" icon="raltyro" desc="Sound Backend Fixes" size="130" url="https://twitter.com/raltyro" />
+	<github  user="lunarcleint" desc="Misc Memory Fixes"  size="130"/>
+	<!-- <credit portrait="false" name="lunar" icon="lunar" desc="Misc Memory Fixes" size="130" url="https://twitter.com/lunarcleint" /> -->
+	<credit portrait="false" name="" desc="" icon="" size="130" url=""/>
+
+	<credit portrait="false" name="----Misc." section="true" />
+	<credit portrait="false" name="Eric" icon="eric" desc="Swag Programmer - Credited for: Runtime .frag/.vert shader code" size="130" url="https://twitter.com/EliteMasterEric" />
+	<credit portrait="false" name="Kuro" icon="kuro" desc="Sarv Engine Programmer - Credited for: Crossfades Idea, Sarv Engine UI" size="130" url="https://twitter.com/kuroao_anomal?lang=en" />
+	<credit portrait="false" name="Rifxii" icon="rifxii" desc="FNF+ Programmer &amp; Artist - Credited for: FNF+ UI, FNF+ Original Mechanics, 'Streetlight' Monster BG" size="130" url="https://gamebanana.com/members/1773116" />
+	<credit portrait="false" name="Kade" icon="kade" desc="Kade Engine Programmer - Credited for: Kade Engine UI" size="130" url="https://twitter.com/kade0912?lang=en" />
+	<credit portrait="false" name="Perez" icon="perez" desc="Vs Shaggy Programmer - Credited for: Multikey Assets and Original Code" size="130" url="https://twitter.com/newsrperez?lang=en" />
+	<credit portrait="false" name="Sky!" icon="sky" desc="D&amp;B: Golden Apple Programmer - Credited for: Swing Icon Bop, Orbit Original Code, and Disruption, and Disability Modcharts" size="130" url="https://twitter.com/grantarep?lang=en" />
+	<credit portrait="false" name="Moldy" icon="moldygh" desc="D&amp;B Programmer - Credited for: Cheating and Unfairness Modcharts" size="130" url="https://twitter.com/moldy_gh?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" />
+	<credit portrait="false" name="Rei" icon="rei" desc="Vs Cye Programmer - Credited for: Ghost and Random mode Original Code" size="130" url="https://www.youtube.com/c/ReitheGoat" />
+	<credit portrait="false" name="Rozebud" icon="rozebud" desc="FPS+ Programmer - Credited for: FPS+ UI" size="130" url="https://twitter.com/helpme_thebigt?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" />
+	<credit portrait="false" name="Shadow Mario" icon="shadowmario" desc="Psych Engine Programmer - Credited for: Original Psych Engine code" size="130" url="https://twitter.com/Shadow_Mario_" />
+	<credit portrait="false" name="" desc="" icon="" size="130" url=""/>
+
+	<credit portrait="false" name="----FNF Crew" section="true" />
+	<credit portrait="false" name="Ninjamuffin" icon="ninjamuffin99" desc="Programmer - &quot;fuk it, im naming my iterable nests alphabetically starting from a instead of i&quot;" size="130" url="https://twitter.com/ninja_muffin99" />
+	<credit portrait="false" name="PhantomArcade" icon="phantomarcade" desc="Animator &amp; Artist - &quot;Goku would rip his fucking skin off&quot;" size="130" url="https://twitter.com/PhantomArcade3K" />
+	<credit portrait="false" name="Evilsk8r" icon="evilsk8r" desc="Artist - &quot;my fishsona&quot;" size="130" url="https://twitter.com/evilsk8r" />
+	<credit portrait="false" name="Kawaisprite" icon="kawaisprite" desc="Composer - &quot;staying offline for 2 months made my dick huge.&quot;" size="130" url="https://twitter.com/kawaisprite" />
+	<credit portrait="false" name="" desc="" icon="" size="130" url=""/>
+
+	<credit portrait="false" name="----Links" section="true" />
+	<credit portrait="false" name="Denpa Engine Discord" icon="discord" desc="Press [ACCEPT KEY] to Join - What you will find in this server:\nOther Fans\nSupport\nTeasers\nRelease Notifications\nPolls\nScripts\nNews" size="130" url="https://discord.gg/pUX2ZMm4Qt" />
+	<credit portrait="false" name="Denpa Men Discord" icon="discord" desc="Press [ACCEPT KEY] to Join - What you will find in this server:\nDenpa Men Fans\nPolls\nDenpa Men Content\nDenpa Men QR Codes\nDenpa Men Fan Creations" size="130" url="https://discord.gg/thedenpamen" />
+
+	
+</menu>
