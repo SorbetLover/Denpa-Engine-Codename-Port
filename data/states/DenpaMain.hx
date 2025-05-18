@@ -3,7 +3,8 @@ import funkin.options.OptionsMenu;
 import funkin.menus.ModSwitchMenu;
 import flixel.addons.display.FlxBackdrop;
 import funkin.menus.credits.CreditsMain;
-
+import flixel.text.FlxTextAlign;
+import flixel.text.FlxTextBorderStyle;
 
 var bg:FunkinSprite;
 var gradient:FunkinSprite;
@@ -18,6 +19,8 @@ var options:FunkinSprite;
 var patches:FunkinSprite;
 
 var logo:FunkinSprite;
+
+var errorText:FlxText;
 function create(){
     bg = new FunkinSprite().loadGraphic(Paths.image("menus/menuDesat"));
     add(bg);
@@ -94,6 +97,24 @@ function create(){
     Conductor.changeBPM(100);
     CoolUtil.playMenuSong();
 }
+function songJsonPopup() {
+    // trace(poop + '\'s .ogg does not exist!');
+    FlxG.sound.play(Paths.sound('invalidJSON'));
+    FlxG.camera.shake(0.05, 0.05);
+    var funnyText = new FlxText(12, FlxG.height - 24, 0, "This wont be made u silly!");
+    funnyText.scrollFactor.set();
+    funnyText.screenCenter();
+    funnyText.x = 5;
+    funnyText.y = FlxG.height/2 - 64;
+    funnyText.setFormat("VCR OSD Mono", 64, FlxColor.RED, FlxTextAlign.LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+    add(funnyText);
+    FlxTween.tween(funnyText, {alpha: 0}, 0.9, {
+        onComplete: _ -> {
+            remove(funnyText, true);
+            funnyText.destroy();
+        }
+    });
+}
 function update(){
     if (FlxG.keys.justPressed.SEVEN) {
 		persistentUpdate = false;
@@ -126,7 +147,12 @@ function update(){
         } else
         if(FlxG.mouse.overlaps(options)){
             FlxG.switchState(new OptionsMenu());
+        } else
+        if(FlxG.mouse.overlaps(patches)){
+            // FlxG.switchState(new OptionsMenu());
+            songJsonPopup();
         }
+        
     }
     bg.scale.x = FlxMath.lerp(bg.scale.x, 1, 0.06);
     bg.scale.y = bg.scale.x;
